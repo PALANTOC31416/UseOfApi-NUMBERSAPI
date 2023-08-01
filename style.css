@@ -1,0 +1,153 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.header {
+    width: 80%;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #a9c4f0;
+    color: #333333;
+    margin: auto;
+    padding: 2%;
+}
+
+.header>p {
+    margin-top: 2%;
+}
+
+.form {
+    width: 80%;
+    height: 150px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin: 0.5% auto;
+    padding-top: 25px;
+}
+
+.form>div {
+    margin-top: 2%;
+}
+
+#informacion {
+    width: 60%;
+    height: 45px;
+    margin: auto;
+    text-align: center;
+    background-color: #abf79b;
+    color: #666666;
+    border-radius: 1em;
+    margin-top: 2%;
+    padding: 2%;
+    display: none;
+}
+
+#errores {
+    width: 60%;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    background-color: #f79b9b;
+    color: #666666;
+    border-radius: 1em;
+    margin-top: 2%;
+    padding: 2%;
+    display: none;
+}
+
+#txtNumero,
+#txtAnio {
+    width: 10%;
+    height: 25px;
+    text-align: center;
+}
+
+#btnEnviarNumero,
+#btnEnviarAnio {
+    font-size: 20px;
+    color: white;
+    background-color: rgb(130, 193, 245);
+    padding: 2px;
+    border-radius: .5em;
+}
+
+@media (max-width: 412px) {
+    .header h1 {
+        font-size: 20px;
+    }
+    #txtNumero,
+    #txtAnio {
+        width: 20%;
+        height: 25px;
+    }
+    .form div label {
+        font-size: 15px;
+    }
+    #informacion {
+        width: 60%;
+        height: 100px;
+    }
+}
+
+@media (max-width: 605px) {
+    .header h1 {
+        font-size: 20px;
+    }
+    #txtNumero,
+    #txtAnio {
+        width: 20%;
+        height: 25px;
+    }
+    .form div label {
+        font-size: 15px;
+    }
+    #informacion {
+        width: 60%;
+        height: 100px;
+    }
+}
+
+@media (max-width: 500px) {
+    .header h1 {
+        font-size: 20px;
+    }
+    #txtNumero,
+    #txtAnio {
+        width: 20%;
+        height: 25px;
+    }
+    .form div label {
+        font-size: 15px;
+    }
+    #informacion {
+        width: 60%;
+        height: 100px;
+    }
+}
+
+@media (max-width: 200px) {
+    .header h1 {
+        font-size: 15px;
+    }
+    .header p {
+        font-size: 15px;
+    }
+    #txtNumero,
+    #txtAnio {
+        width: 20%;
+        height: 25px;
+    }
+    .form div label {
+        font-size: 10px;
+    }
+    #informacion {
+        width: 60%;
+        height: 240px;
+    }
+}

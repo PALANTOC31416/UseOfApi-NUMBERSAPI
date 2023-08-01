@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informacion de numeros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Significados Numéricos en un Clic: Tu guía personalizada para el poder de los números</h1>
+        <p>En esta página, nuestro objetivo principal es destacar el uso de API mediante consultas en JavaScript, para ello usaremos el API de NumbersAPI(http://numbersapi.com).</p>
+        <p>La cual en el primer texbox podras ingresar un numero y te mostrara su significado, o algun dato inportante.</p>
+        <p>En el segundo textbox podras ingresar un año y tedira un suceso importante del año.</p>
+    </header>
+
+    <div id="errores"></div>
+
+    <div id="informacion"></div>
+
+    <div class="form">
+        <div>
+            <label for="">Ingresa un numero</label>
+            <input type="text" id="txtNumero">
+            <input type="button" value="consultar" id="btnEnviarNumero">
+        </div>
+
+        <div>
+            <label for="">Ingresa un año</label>
+            <input type="text" id="txtAnio">
+            <input type="button" value="consultar" id="btnEnviarAnio">
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
